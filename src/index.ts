@@ -4,7 +4,7 @@ import helmet from "helmet";
 import morgan from "morgan";
 import dotenv from "dotenv";
 import { serve } from "inngest/express";
-import { errorHandler } from "./middleware/errorHandler.js";
+import { errorHandler } from "./middleware/errorHandler";
 import { logger } from "./utils/logger.js";
 import authRouter from "./routes/auth.js";
 import chatRouter from "./routes/chat.js";
